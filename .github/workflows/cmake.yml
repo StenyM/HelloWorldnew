@@ -12,7 +12,7 @@ env:
 
 jobs:
   cmake-cplusplus-app:
-  name: cmake-cplusplus-app:
+  name: cmake-cplusplus-app
   runs: ubuntu-latest
   steps:
   - name: Checkout
