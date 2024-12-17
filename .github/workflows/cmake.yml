@@ -12,11 +12,11 @@ env:
 
 jobs:
   cmake-cplusplus-app:
-  name: cmake-cplusplus-app
-  runs: ubuntu-latest
-  steps:
-  - name: Checkout
-    uses: actions/checkout@v4
-  - name: Create Folder and build it
-    run: |
-     mkdir -p build && cd build && cmake && make
+    name: cmake-cplusplus-app
+    runs: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Create Folder and build it
+      run: |
+       mkdir -p build && cd build && cmake && make
